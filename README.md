@@ -1,4 +1,4 @@
-# ahorcado Termux
+![Screenshot](ahorcado.png)
 instalacion
 * apt update && apt upgrade -y
 * apt install git -y
