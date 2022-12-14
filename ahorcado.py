@@ -5,6 +5,12 @@ import os as termux
 from os import *
 import time
 import random
+while True:
+ try:
+  from lolpython import lol_py
+  break
+ except ModuleNotFoundError:
+  os.system("pip install lolpython")
 class color:
     morado = '\033[95m'
     blanco = '\033[97m'
