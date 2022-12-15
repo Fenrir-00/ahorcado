@@ -270,7 +270,8 @@ def perdiste(palabrasecreta):
   if var == "1":
    ahorcado()
   else:
-   menu()
+   os.system("clear")
+   pass
 
 if __name__ == "__main__":
 	baile()
